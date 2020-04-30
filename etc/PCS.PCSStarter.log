@@ -1,0 +1,18 @@
+200404-14:27:41 [INFO] -- 
+200404-14:27:41 [INFO] -- 
+200404-14:27:41 [INFO] -- ============================================================
+200404-14:27:41 [INFO] -- PCSStarter: Application Starting...
+200404-14:27:41 [FINE] -- PCSStarter: registering timer
+200404-14:27:41 [FINE] -- timer: created!
+200404-14:27:41 [FINE] -- PCSStarter: registering PCSCore
+200404-14:27:41 [FINE] -- PCSCore: created!
+200404-14:27:41 [FINE] -- PCSStarter: registering GateHandler
+200404-14:27:41 [FINE] -- GateHandler: created!
+200404-14:27:41 [FINE] -- PCSStarter: registering CollectorHandler
+200404-14:27:41 [FINE] -- CollectorHandler: created!
+200404-14:27:41 [FINE] -- PCSStarter: registering PayMachineHandler
+200404-14:27:41 [FINE] -- PayMachineHandler: created!
+200404-14:27:41 [INFO] -- timer: starting...
+200404-14:27:41 [INFO] -- PCSCore: starting...
+200404-14:27:41 [INFO] -- GateHandler: starting...
+200404-14:27:41 [INFO] -- PayMachineHandler: starting...

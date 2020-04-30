@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="470.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PCS.DispatcherHandler.Emulator.DispatcherController">
+    <children>
+        <AnchorPane prefHeight="30.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="20.0">
+            <children>
+                <Button layoutX="65.0" layoutY="1.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="40.0" prefWidth="100.0" text="Print a ticket" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="45.0" AnchorPane.topAnchor="1.0"><font><Font size="12.0" /></font></Button>
+                <Button layoutX="165.0" layoutY="1.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="40.0" prefWidth="100.0" text="Remove ticket" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="225.0" AnchorPane.topAnchor="1.0"><font><Font size="12.0" /></font></Button>
+            </children>
+        </AnchorPane>
+        <AnchorPane prefHeight="30.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="60.0">
+            <children>
+                <Button layoutX="65.0" layoutY="1.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="40.0" prefWidth="100.0" text="Poll ACK" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="30.0" AnchorPane.topAnchor="1.0"><font><Font size="12.0" /></font></Button>
+                <Button layoutX="165.0" layoutY="1.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="40.0" prefWidth="100.0" text="Auto Poll: On" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="140.0" AnchorPane.topAnchor="1.0" fx:id="autoPollButton"><font><Font size="12.0"/></font></Button>
+                <Button layoutX="165.0" layoutY="1.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="40.0" prefWidth="100.0" text="Poll Request" AnchorPane.bottomAnchor="-1.0" AnchorPane.leftAnchor="250.0" AnchorPane.topAnchor="1.0"><font><Font size="12.0" /></font></Button>
+            </children>
+        </AnchorPane>
+
+        <AnchorPane prefHeight="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="100.0">
+            <children>
+                <Label layoutX="57.0" layoutY="-1.0" prefHeight="30.0" prefWidth="120.0" AnchorPane.leftAnchor="57.0"> Ticket ID: </Label> <Label layoutX="250.0" layoutY="-1.0" prefHeight="30.0" prefWidth="120.0" AnchorPane.leftAnchor="250.0"> Enter Time: </Label>
+                <TextArea fx:id="TicketIDField" editable="false" layoutX="57.0" layoutY="30.0" prefHeight="42.0" prefWidth="51.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="57.0" AnchorPane.topAnchor="30.0" />
+                <TextArea fx:id="EnterField" editable="false" layoutX="239.0" layoutY="30.0" prefHeight="42.0" prefWidth="80.0" AnchorPane.bottomAnchor="14.0" AnchorPane.leftAnchor="239.0" AnchorPane.topAnchor="30.0" />
+
+                <!--            <TextArea fx:id="DispatcherTextAreaInput" editable="true" layoutX="20.0" layoutY="20" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" />-->
+            </children>
+        </AnchorPane>
+        <TextArea fx:id="DispatcherTextArea" editable="false" layoutX="20.0" layoutY="169.0" AnchorPane.bottomAnchor="20" AnchorPane.leftAnchor="20" AnchorPane.rightAnchor="20" AnchorPane.topAnchor="200" />
+    </children>
+</AnchorPane>

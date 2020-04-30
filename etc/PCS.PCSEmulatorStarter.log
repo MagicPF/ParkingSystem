@@ -1,0 +1,109 @@
+200424-13:08:20 [INFO] -- 
+200424-13:08:20 [INFO] -- 
+200424-13:08:20 [INFO] -- ============================================================
+200424-13:08:20 [INFO] -- PCSStarter: Application Starting...
+200424-13:08:20 [FINE] -- PCSStarter: registering timer
+200424-13:08:20 [FINE] -- timer: created!
+200424-13:08:20 [FINE] -- PCSStarter: registering PCSCore
+200424-13:08:20 [FINE] -- PCSCore: created!
+200424-13:08:20 [INFO] -- PCSCore initial vacancy available floor number: [10, 5, 7]
+200424-13:08:20 [FINE] -- PCSStarter: registering DispatcherHandler
+200424-13:08:20 [FINE] -- DispatcherHandler: created!
+200424-13:08:20 [FINE] -- PCSStarter: registering CollectorHandler
+200424-13:08:20 [FINE] -- CollectorHandler: created!
+200424-13:08:20 [FINE] -- PCSStarter: registering VacancyHandler
+200424-13:08:20 [FINE] -- VacancyHandler: created!
+200424-13:08:20 [FINE] -- PCSStarter: registering EntranceGateHandler
+200424-13:08:20 [FINE] -- EntranceGateHandler: created!
+200424-13:08:20 [FINE] -- PCSStarter: registering ExitGateHandler
+200424-13:08:20 [FINE] -- ExitGateHandler: created!
+200424-13:08:20 [FINE] -- PCSStarter: registering PayMachineHandler0
+200424-13:08:20 [FINE] -- PayMachineHandler0: created!
+200424-13:08:20 [FINE] -- PCSStarter: registering PayMachineHandler1
+200424-13:08:20 [FINE] -- PayMachineHandler1: created!
+200424-13:08:20 [FINE] -- PCSStarter: registering PayMachineHandler2
+200424-13:08:20 [FINE] -- PayMachineHandler2: created!
+200424-13:08:20 [FINE] -- PCSStarter: registering MotionSensorHandlerUp1
+200424-13:08:20 [FINE] -- MotionSensorHandlerUp1: created!
+200424-13:08:20 [FINE] -- PCSStarter: registering MotionSensorHandlerDown1
+200424-13:08:20 [FINE] -- MotionSensorHandlerDown1: created!
+200424-13:08:20 [FINE] -- PCSStarter: registering MotionSensorHandlerUp2
+200424-13:08:20 [FINE] -- MotionSensorHandlerUp2: created!
+200424-13:08:20 [FINE] -- PCSStarter: registering MotionSensorHandlerDown2
+200424-13:08:20 [FINE] -- MotionSensorHandlerDown2: created!
+200424-13:08:20 [FINE] -- PCSStarter: registering MotionSensorHandlerUp3
+200424-13:08:20 [FINE] -- MotionSensorHandlerUp3: created!
+200424-13:08:20 [FINE] -- PCSStarter: registering MotionSensorHandlerDown3
+200424-13:08:20 [FINE] -- MotionSensorHandlerDown3: created!
+200424-13:08:23 [INFO] -- PayMachineHandler1: starting...
+200424-13:08:23 [INFO] -- MotionSensorHandlerUp1: starting...
+200424-13:08:23 [INFO] -- PayMachineHandler2: starting...
+200424-13:08:23 [INFO] -- MotionSensorHandlerUp3: starting...
+200424-13:08:23 [INFO] -- CollectorHandler: starting...
+200424-13:08:23 [INFO] -- EntranceGateHandler: starting...
+200424-13:08:23 [INFO] -- DispatcherHandler: starting...
+200424-13:08:23 [INFO] -- ExitGateHandler: starting...
+200424-13:08:23 [INFO] -- timer: starting...
+200424-13:08:23 [INFO] -- VacancyHandler: starting...
+200424-13:08:23 [INFO] -- PayMachineHandler0: starting...
+200424-13:08:23 [INFO] -- MotionSensorHandlerDown1: starting...
+200424-13:08:23 [INFO] -- MotionSensorHandlerUp2: starting...
+200424-13:08:23 [INFO] -- MotionSensorHandlerDown2: starting...
+200424-13:08:23 [INFO] -- MotionSensorHandlerDown3: starting...
+200424-13:08:23 [INFO] -- PCSCore: starting...
+200424-13:08:27 [FINE] -- PayMachineHandler0: message received: [PayMachineHandler0 (TicketRequest) -- {PayMachineHandler0,6}].
+200424-13:08:27 [INFO] -- PayMachineHandler0: I am waiting for Ticket Info
+200424-13:08:27 [FINE] -- PCSCore: message received: [PayMachineHandler0 (TicketRequest) -- {PayMachineHandler0,6}].
+200424-13:08:27 [INFO] -- PCSCore:PCS Sent the fee already
+200424-13:08:27 [WARNING] -- PCSCoreNo such Ticket =_= called6
+200424-13:08:27 [WARNING] -- PCSCore: Calculate Fee Fail
+200424-13:08:27 [FINE] -- PayMachineHandler0: message received: [PCSCore (TicketFee) -- {PayMachineHandler0,6,-1,-1,fail}].
+200424-13:08:27 [WARNING] -- The Ticket Is Invalid. Please Move the Ticket!
+200424-13:08:27 [INFO] -- PayMachineHandler0: Waiting for Removal
+200424-13:08:27 [INFO] -- [0 2020-04-24 13:25:00 10.0 Test1
+, 1 1970-01-01 07:59:59 -1.0 
+, 2 1970-01-01 07:59:59 -1.0 
+]
+200424-13:08:30 [FINE] -- PayMachineHandler0: message received: [PayMachineHandler0 (TicketRemoveACK) -- {PayMachineHandler0,6}].
+200424-13:08:30 [INFO] -- PayMachineHandler0: I am idle please use me.
+200424-13:10:33 [INFO] -- 
+200424-13:10:33 [INFO] -- 
+200424-13:10:33 [INFO] -- ============================================================
+200424-13:10:33 [INFO] -- PCSStarter: Application Stopping...
+200424-13:10:33 [FINE] -- ExitGateHandler: message received: [PCSStarter (Terminate) -- {Terminate now!}].
+200424-13:10:33 [FINE] -- PayMachineHandler2: message received: [PCSStarter (Terminate) -- {Terminate now!}].
+200424-13:10:33 [FINE] -- PCSCore: message received: [PCSStarter (Terminate) -- {Terminate now!}].
+200424-13:10:33 [FINE] -- PayMachineHandler0: message received: [PCSStarter (Terminate) -- {Terminate now!}].
+200424-13:10:33 [FINE] -- CollectorHandler: message received: [PCSStarter (Terminate) -- {Terminate now!}].
+200424-13:10:33 [FINE] -- PCSStarter: unregistering PCSCore
+200424-13:10:33 [INFO] -- PCSCore: terminating...
+200424-13:10:33 [FINE] -- MotionSensorHandlerDown2: message received: [PCSStarter (Terminate) -- {Terminate now!}].
+200424-13:10:33 [FINE] -- MotionSensorHandlerUp2: message received: [PCSStarter (Terminate) -- {Terminate now!}].
+200424-13:10:33 [FINE] -- DispatcherHandler: message received: [PCSStarter (Terminate) -- {Terminate now!}].
+200424-13:10:33 [FINE] -- MotionSensorHandlerDown3: message received: [PCSStarter (Terminate) -- {Terminate now!}].
+200424-13:10:33 [FINE] -- EntranceGateHandler: message received: [PCSStarter (Terminate) -- {Terminate now!}].
+200424-13:10:33 [FINE] -- PayMachineHandler1: message received: [PCSStarter (Terminate) -- {Terminate now!}].
+200424-13:10:33 [INFO] -- timer: received terminate!
+200424-13:10:33 [FINE] -- PCSStarter: unregistering timer
+200424-13:10:33 [INFO] -- timer: terminating...
+200424-13:10:33 [FINE] -- MotionSensorHandlerDown1: message received: [PCSStarter (Terminate) -- {Terminate now!}].
+200424-13:10:33 [FINE] -- PCSStarter: unregistering EntranceGateHandler
+200424-13:10:33 [INFO] -- EntranceGateHandler: terminating...
+200424-13:10:33 [FINE] -- MotionSensorHandlerUp1: message received: [PCSStarter (Terminate) -- {Terminate now!}].
+200424-13:10:33 [WARNING] -- PayMachineHandler1 is idle cannot do it!!!
+200424-13:10:33 [FINE] -- MotionSensorHandlerUp3: message received: [PCSStarter (Terminate) -- {Terminate now!}].
+200424-13:10:33 [WARNING] -- PayMachineHandler2 is idle cannot do it!!!
+200424-13:10:33 [WARNING] -- PayMachineHandler0 is idle cannot do it!!!
+200424-13:10:33 [FINE] -- PCSStarter: unregistering PayMachineHandler0
+200424-13:10:33 [FINE] -- VacancyHandler: message received: [PCSStarter (Terminate) -- {Terminate now!}].
+200424-13:10:33 [FINE] -- PCSStarter: unregistering PayMachineHandler1
+200424-13:10:33 [FINE] -- PCSStarter: unregistering PayMachineHandler2
+200424-13:10:33 [FINE] -- PCSStarter: unregistering ExitGateHandler
+200424-13:10:33 [INFO] -- ExitGateHandler: terminating...
+200424-13:10:33 [INFO] -- PayMachineHandler2: terminating...
+200424-13:10:33 [INFO] -- PayMachineHandler0: terminating...
+200424-13:10:33 [FINE] -- PCSStarter: unregistering DispatcherHandler
+200424-13:10:33 [INFO] -- DispatcherHandler: terminating...
+200424-13:10:33 [INFO] -- PayMachineHandler1: terminating...
+200424-13:10:33 [FINE] -- PCSStarter: unregistering VacancyHandler
+200424-13:10:33 [INFO] -- VacancyHandler: terminating...

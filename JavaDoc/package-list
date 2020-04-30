@@ -1,0 +1,17 @@
+AppKickstarter
+AppKickstarter.misc
+AppKickstarter.timer
+PCS
+PCS.CollectorHandler
+PCS.CollectorHandler.Emulator
+PCS.DispatcherHandler
+PCS.DispatcherHandler.Emulator
+PCS.GateHandler
+PCS.GateHandler.Emulator
+PCS.MotionsensorHandler
+PCS.MotionsensorHandler.Emulator
+PCS.PCSCore
+PCS.PayMachineHandler
+PCS.PayMachineHandler.Emulator
+PCS.VacancyHandler
+PCS.VacancyHandler.Emulator

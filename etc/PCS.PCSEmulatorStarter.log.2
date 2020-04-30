@@ -1,0 +1,71 @@
+200406-21:04:14 [INFO] -- 
+200406-21:04:14 [INFO] -- 
+200406-21:04:14 [INFO] -- ============================================================
+200406-21:04:14 [INFO] -- PCSStarter: Application Starting...
+200406-21:04:15 [FINE] -- PCSStarter: registering timer
+200406-21:04:15 [FINE] -- timer: created!
+200406-21:04:15 [FINE] -- PCSStarter: registering PCSCore
+200406-21:04:15 [FINE] -- PCSCore: created!
+200406-21:04:15 [FINE] -- PCSStarter: registering DispatcherHandler
+200406-21:04:15 [FINE] -- DispatcherHandler: created!
+200406-21:04:15 [FINE] -- PCSStarter: registering CollectorHandler
+200406-21:04:15 [FINE] -- CollectorHandler: created!
+200406-21:04:15 [FINE] -- PCSStarter: registering EntranceGateHandler
+200406-21:04:15 [FINE] -- EntranceGateHandler: created!
+200406-21:04:15 [FINE] -- PCSStarter: registering ExitGateHandler
+200406-21:04:15 [FINE] -- ExitGateHandler: created!
+200406-21:04:15 [FINE] -- PCSStarter: registering PayMachineHandler0
+200406-21:04:15 [FINE] -- PayMachineHandler0: created!
+200406-21:04:15 [FINE] -- PCSStarter: registering PayMachineHandler1
+200406-21:04:15 [FINE] -- PayMachineHandler1: created!
+200406-21:04:15 [FINE] -- PCSStarter: registering PayMachineHandler2
+200406-21:04:15 [FINE] -- PayMachineHandler2: created!
+200406-21:04:15 [FINE] -- PCSStarter: registering PayMachineHandler3
+200406-21:04:15 [FINE] -- PayMachineHandler3: created!
+200406-21:04:18 [INFO] -- timer: starting...
+200406-21:04:18 [INFO] -- PCSCore: starting...
+200406-21:04:18 [INFO] -- PayMachineHandler3: starting...
+200406-21:04:18 [INFO] -- PayMachineHandler2: starting...
+200406-21:04:18 [INFO] -- PayMachineHandler1: starting...
+200406-21:04:18 [INFO] -- PayMachineHandler0: starting...
+200406-21:04:18 [INFO] -- CollectorHandler: starting...
+200406-21:04:18 [INFO] -- DispatcherHandler: starting...
+200406-21:04:18 [INFO] -- ExitGateHandler: starting...
+200406-21:04:18 [INFO] -- EntranceGateHandler: starting...
+200406-21:04:32 [FINE] -- DispatcherHandler: message received: [DispatcherHandler (AddTicket) -- {DispatcherHandler}].
+200406-21:04:47 [FINE] -- DispatcherHandler: message received: [DispatcherHandler (AddTicket) -- {DispatcherHandler}].
+200406-21:06:12 [FINE] -- PayMachineHandler0: message received: [PayMachineHandler0 (TicketRequest) -- {PayMachineHandler0,4}].
+200406-21:06:12 [FINE] -- PCSCore: message received: [PayMachineHandler0 (TicketRequest) -- {PayMachineHandler0,4}].
+200406-21:06:12 [INFO] -- PCSCore:PCS Sent the fee already
+200406-21:06:12 [WARNING] -- PCSCoreNo such Ticket =_= called4
+200406-21:06:21 [FINE] -- PayMachineHandler2: message received: [PayMachineHandler2 (TicketRequest) -- {PayMachineHandler2,3}].
+200406-21:06:21 [FINE] -- PCSCore: message received: [PayMachineHandler2 (TicketRequest) -- {PayMachineHandler2,3}].
+200406-21:06:21 [INFO] -- PCSCore:PCS Sent the fee already
+200406-21:06:21 [WARNING] -- PCSCoreNo such Ticket =_= called3
+200406-21:06:26 [FINE] -- PayMachineHandler2: message received: [PayMachineHandler2 (PaymentACK) -- {3}].
+200406-21:06:26 [FINE] -- PayMachineHandler2Emulator:ticket3Paid already.
+200406-21:06:26 [FINE] -- PCSCore: message received: [PayMachineHandler2Emulator (PaymentACK) -- {3}].
+200406-21:06:26 [INFO] -- PCSCore:Payment ACK received
+200406-21:06:26 [WARNING] -- PCSCoreNo such Ticket =_= called3
+200406-21:06:26 [FINE] -- PCSCore: message received: [PayMachineHandler2Emulator (TicketRequest) -- {3}].
+200406-21:06:26 [INFO] -- PCSCore:PCS Sent the fee already
+200406-21:06:38 [FINE] -- PayMachineHandler2: message received: [PayMachineHandler2 (TicketRequest) -- {PayMachineHandler2,0}].
+200406-21:06:38 [FINE] -- PCSCore: message received: [PayMachineHandler2 (TicketRequest) -- {PayMachineHandler2,0}].
+200406-21:06:38 [INFO] -- PCSCore:PCS Sent the fee already
+200406-21:06:38 [FINE] -- PayMachineHandler3: message received: [PCSCore (TicketFee) -- {PayMachineHandler2,0,0.0,1586178255522}].
+200406-21:06:38 [FINE] -- PayMachineHandler0: message received: [PCSCore (TicketFee) -- {PayMachineHandler2,0,0.0,1586178255522}].
+200406-21:06:38 [FINE] -- PayMachineHandler1: message received: [PCSCore (TicketFee) -- {PayMachineHandler2,0,0.0,1586178255522}].
+200406-21:06:38 [FINE] -- PayMachineHandler2: message received: [PCSCore (TicketFee) -- {PayMachineHandler2,0,0.0,1586178255522}].
+200406-21:06:40 [INFO] -- 
+200406-21:06:40 [INFO] -- 
+200406-21:06:40 [INFO] -- ============================================================
+200406-21:06:40 [INFO] -- PCSStarter: Application Stopping...
+200406-21:06:40 [FINE] -- ExitGateHandler: message received: [PCSStarter (Terminate) -- {Terminate now!}].
+200406-21:06:40 [FINE] -- PCSCore: message received: [PCSStarter (Terminate) -- {Terminate now!}].
+200406-21:06:40 [FINE] -- PCSStarter: unregistering PCSCore
+200406-21:06:40 [INFO] -- PCSCore: terminating...
+200406-21:06:40 [INFO] -- timer: received terminate!
+200406-21:06:40 [FINE] -- PCSStarter: unregistering timer
+200406-21:06:40 [FINE] -- PCSStarter: unregistering ExitGateHandler
+200406-21:06:40 [INFO] -- ExitGateHandler: terminating...
+200406-21:06:40 [INFO] -- timer: terminating...
